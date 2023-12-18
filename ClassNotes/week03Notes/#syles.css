@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+/* Inline by default */
+/* Uses double colon */
+h1::before {
+    /* Must use content property */
+    content: "Hello!";
+    height: 10px;
+    width: 10px;
+    background-color: rgb(226, 37, 8);
+    color: white;
+    display: block;
+    position: relative;
+}
+
+h1::after {
+    content: 'after';
+    /* width 10px;}
+  height: 10px; */
+    background-color: rgb(29, 01, 43) color: white;
+    display: block;
+    possiton: relative;
+
+
+    .wrapper {
+        /* this is how you add an image externally */
+        background-image: "https://1drv.ms/b/s!AiWlKHTwDAy_k0wehi08RKSWFm-B?e=UMQzHu"
+            width: 400px;
+        height: 300px;
+        background-size: cover;
+    }
+
+    .wrapper::before {
+        content: '';
+        background: AQUA;
+        width: 10px;
+        height: 10px;
+        position: relative;
+        display: block;
+    }
+
+    /* *img */

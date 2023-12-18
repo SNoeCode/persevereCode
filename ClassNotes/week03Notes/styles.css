@@ -1,0 +1,39 @@
+h1 {
+    background-color: blue;
+    color:blueviolet;
+    
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+a[class="first-link"] {
+color: red;
+}
+
+a[class="second-link"] {
+    color:green;
+}
+/* [class|="second"]{
+    background-color: lightseagreen;
+} */
+
+[class^="sec"]{
+    background-color: lightseagreen;
+}
+
+/* Target nesting elements */
+/* Targets every anchor in a paragraph*/
+p a {
+    font-family: fantasy;
+}
+   
+/* Targets more than one element */
+h1,p {
+    font-size: 20px;
+}
+h1,[href] {
+  font-size: 24px;  
+}
+

@@ -1,0 +1,57 @@
+/*  base styling  */
+.wrapper {
+    width: 80vw;
+    height: 800px;
+    background-color: darkgray;
+    margin: auto;
+
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    color: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+}
+
+/*  base styling  */
+.wrapper {
+    width: 80vw;
+    height: 800px;
+    background-color: darkgray;
+    margin: auto;
+
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    color: aliceblue;
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+/*  To start making flexbox model we need to first define a flex container*/
+
+.wrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+>item {
+
+}
+
+/* display:flex defines the flexible container and makes the items inside respond accordingly */
+/*  wrapper that contains items */
+/* flex-direction */
+/* justify-content */
+/* align-items */
+/* flex-wrap */
+/* align-content */

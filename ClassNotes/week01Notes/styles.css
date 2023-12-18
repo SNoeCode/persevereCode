@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+/* Inline by default */
+/* Uses double colon */
+h1::before {
+    /* Must use content property */
+    content: "Hello!";
+    height: 10px;
+    width: 10px;
+    background-color: rgb(226,37,8);
+    color: white;
+    display: block;
+    position: relative;
+}
