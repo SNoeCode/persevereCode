@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1 fr 2 fr;
+    min-height: 100vh;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header"
+    "sidebar main-content";
+}
+.header {
+    background-color: #f4a536;
+    grid-area: header;
+padding: 20px;
+color: black;
+}
+.sidebar {
+    background-color: chartreuse;
+    color: blue;
+    grid-area: sidebar;
+padding: 20px;
+}
+.main-content {
+    grid-area: main-content;
+    padding: 20px;
+}

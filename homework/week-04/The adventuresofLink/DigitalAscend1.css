@@ -1,0 +1,98 @@
+*body {
+    margin: 100%;
+    display: flex;
+    position: relative;
+    width: 1400px;
+    height:  1200px;
+}
+.img {
+    position: absolute;
+    background-image: image("futurecitydark.jpg");
+    opacity: 65%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: "Libre Barcode 39 Extended Text", sans-serif;
+    font-weight: 500;
+}
+
+.intro {
+    margin: auto;
+    font-size: 40px;
+    color: midnightblue;
+    opacity: 100%;
+    font-family: "Teko", sans-serif;
+    padding-inline: 5%;
+    font-weight: 700;
+    opacity: 90%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Caveat", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p {
+    text-align: center;
+    position: relative;
+    font-family: "Satisfy", sans-serif;
+    font-size: 27px;
+    margin-bottom: -9%;
+}
+
+.image {
+    opacity: 90%;
+    padding-top: -5%;
+    padding-left: 1%;
+    margin-top: -5%;
+    margin-bottom: -12%;
+    padding-bottom: -1%;
+}
+
+h3 {
+    display: block;
+    opacity: 90%;
+    margin-top: 10.2%;
+    margin-bottom: -1.5%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "Rubik Maps", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.A, .B {
+    
+    display: inline-block;
+    opacity: 90%;
+    text-indent: 19%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 30px;
+    color: blue;
+}
+
+.B {
+    /*  display: inline-block;
+    padding-left: 10%;
+    font-size: 30px;*/
+    margin-top: 2%;
+    color: red;
+    text-align: center;
+    text-indent: 21.5%;
+}
+.span img {
+    display: flex;
+}
+section {
+    font-family: "Sedgwick", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: aqua;
+}

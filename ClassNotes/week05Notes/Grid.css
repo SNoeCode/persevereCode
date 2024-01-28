@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+box-sizing: border-box;
+
+}
+.container {
+    display: grid;
+
+background-color: aquamarine;
+    height: 600px;
+    width:800;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 20% 60% 20%;
+}
+.item {
+    background-color: brown;
+    border: 2px solid black;
+}
+.one {
+   grid-column: 1/4;
+   background-color: crimson;
+}
+.two {
+background-color: green;
+}
+.three {
+background-color: blue;
+}
+.four {
+background-color: green;
+}
+.five {
+    grid-column: 1/4;
+    background-color: yellow;
+}
+.six {
+
+}

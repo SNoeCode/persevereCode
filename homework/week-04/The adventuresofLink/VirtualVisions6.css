@@ -1,0 +1,41 @@
+body {
+ margin: 0;
+ padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: block;
+}
+header {
+font-size: 52px;
+text-align: center;
+font-family: "Libre Barcode 39 Text", sans-serif;
+}
+.item p{
+  display: flex;
+  text-align: center;
+  max-width: 700px;
+  max-height: 400px;
+  font-family:"salsa", serif;
+  font-size: 25px;
+  background-color: aqua;
+}
+img {
+  display: flex; 
+  float:right;
+ height: 550px;
+  width: 900px;
+  opacity: 85%;
+}
+h1{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.items p{
+  display: flex;
+}
+aside {
+  display: block;
+  float: right;
+}

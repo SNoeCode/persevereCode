@@ -1,0 +1,41 @@
+CSS Media Queries
+
+The @media rule, introduced in CSS2, made it possible to define different style rules for different media types.
+Media queries in CSS3 extended the CSS2 media types idea: Instead of looking for a type of device, they look at the capability of the device.
+
+Media queries can be used to check many things, such as:
+1. width and height of the viewport
+2. orientation of the viewport (landscape or portrait)
+3. resolution
+
+Using media queries are a popular technique for delivering a tailored style sheet to desktops, laptops, tablets, and mobile phones (such as iPhone and Android phones).
+
+CSS Media Types
+1. all(default)          Used for all media type devices
+2. print                 Used for print preview mode
+3. screen                Used for computer screens, tablets, smart-phones etc.
+
+CSS Common Media Features
+1. orientation           Orientation of the viewport. Landscape or portrait
+2. max-height            Maximum height of the viewport
+3. min-height            Minimum height of the viewport
+4. height                Height of the viewport (including scrollbar)
+5. max-width             Maximum width of the viewport
+6. min-width             Minimum width of the viewport
+7. width                 Width of the viewport (including scrollbar)
+
+
+Media Query Syntax
+A media query consists of a media type and can contain one or more media features, which resolve to either true or false.
+@media not|only mediatype and (media feature) and (media feature) {
+  CSS-Code;
+}
+The mediatype is optional (if omitted, it will be set to all). However, if you use not or only, you must also specify a mediatype.
+
+The result of the query is true if the specified media type matches the type of device the document is being displayed on and all media features in the media query are true. When a media query is true, the corresponding style sheet or style rules are applied, following the normal cascading rules.
+
+Meaning of the not, only, and and keywords:
+not: This keyword inverts the meaning of an entire media query.
+
+ONLY: This keyword prevents older browsers that do not support media queries from applying the specified styles. It has no effect on modern browsers.
+and: This keyword combines a media type and one or more media features.

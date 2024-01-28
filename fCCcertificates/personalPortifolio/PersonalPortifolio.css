@@ -1,0 +1,13 @@
+@media screen and (max-width: 760px) {
+    #nav-bar {
+        display: flex;
+    }
+}
+
+#welcome-section {
+    height: 100vh;
+}
+
+#nav-bar {
+    position: fixed;
+}

@@ -1,0 +1,133 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Noto Serif Toto",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  background-color: black;
+}
+header {
+  background-color: black;
+  color:white;
+  height: auto;
+  font-weight: 100;
+  text-align:center;
+  font-size: 22px;
+}
+#rec{
+  background-color: black;
+  color: azure;
+}
+#description{
+text-align: center;
+font-weight: 700;
+height: auto;
+background-color: black;
+}
+#survey-form {
+  text-align: center;
+  font-size: 22px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: gray;
+  height: 75px;
+}
+#legend{
+  text-align: center;
+  background-color: black;
+  color:antiquewhite;
+  text-align: center;
+}
+#social-media{
+color: azure;
+  height: auto;
+  background-color: black;
+}
+.legend{
+  background-color: gray;
+  font-size:28px;
+  color: whitesmoke;
+}
+.label{
+  background-color: black;
+  text-align: center;
+  height: 80px; 
+  background-color: gray;
+  font-size: 40px;
+}
+h2{
+  height: 50px;
+}
+
+.drop-down{
+position: relative;
+display: inline-block;
+
+}
+
+.button{
+background-color:#04AA6D;
+color: whitesmoke;
+padding: 16px;
+font-size: 16px;
+}
+ .option{
+  background-color: #f1f1f1;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.option a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.option a:hover {
+  background-color: hsl(158, 95%, 34%);
+}
+.drop-down:hover .option{
+  display: block;
+  cursor:grabbing;
+}
+.drop-down:hover .button{  background-color: #3e8e41;
+}
+#radio{
+  color: white;
+  background-color: black;
+}
+h3 {
+  height: auto;
+  width: auto;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  background-color: black;
+}
+textarea {
+  background-color: grey;
+  height: auto;
+}
+.area{
+  height:200px;
+}
+.suggestions{
+font-size:larger;
+}
+button{
+  background-color: hsl(158, 95%, 34%);
+  height:40px;
+  width:120px;
+}
+
+
+
+

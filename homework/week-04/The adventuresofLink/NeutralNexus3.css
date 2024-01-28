@@ -1,0 +1,48 @@
+*body {
+margin:0%;
+box-sizing: border-box;
+}
+.h1 {
+    display: flex;
+    height: 100px;
+    width: 1800px;
+    align-content: center;
+    justify-content: center;
+    font-family: "Libre Barcode 128 Text";
+    font-size: 24px;
+    text-align: center;
+}
+.paragraph {
+    display: flex; 
+    font-family: "Freehand";
+    font-size: 30px;
+    font-weight: 500;
+    text-wrap: wrap;
+    color: aqua;
+    background-color: black;
+}
+.container img {
+    display: flex;
+    margin: 0%;
+    width: 1900px;
+    height: 600px;
+    flex-direction: row;
+    position: absolute;
+    opacity: 70%;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    opacity: 90%;
+    color: darkcyan;
+}
+.container span {
+    display: flex;
+    margin: 0%;
+    opacity: 90%;
+    font-size: 40px;
+    font-family: Lobster;
+    font-weight: 300;
+    text-wrap: wrap;
+}

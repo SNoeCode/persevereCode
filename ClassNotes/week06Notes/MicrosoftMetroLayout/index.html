@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+            <div class="grid-container">
+        <div class="block block1">1</div>
+        <div class="block block2">2</div>
+        <div class="block block3">3</div>
+        <div class="block block4">4</div>
+        <div class="block block5">5</div>
+        <div class="block block6">6</div>
+        <div class="block block7">7</div>
+        <div class="block block8">8</div>
+        <div class="block block9">9</div>
+        <div class="block block10">10</div>
+        <div class="block block11">11</div>
+        <div class="block block12">12</div>
+            </div>
+</body>
+</html>
+body {
+    margin: 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    height: 100vh;
+    gap: 2px;
+  }
+  
+  .block {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .block1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  
+  .block2 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+  }
+  
+  .block6 {
+    grid-column: 1/2;
+    grid-row: 3/5;
+  }
+  
+  .block7 {
+    grid-column: 2/4;
+    grid-row: 3/4;
+  }
+  
+  .block:nth-child(1) {
+    background-color: #0078d4;
+  }
+  
+  .block:nth-child(2) {
+    background-color: #0072c6;
+  }
+  
+  .block:nth-child(3) {
+    background-color: #005a9e;
+  }
+  
+  .block:nth-child(4) {
+    background-color: #004578;
+  }
+  
+  .block:nth-child(5) {
+    background-color: #003366;
+  }
+  
+  .block:nth-child(6) {
+    background-color: #001f3e;
+  }
+  
+  .block:nth-child(7) {
+    background-color: #ff6f61;
+  }
+  
+  .block:nth-child(8) {
+    background-color: #ff3c31;
+  }
+  
+  .block:nth-child(9) {
+    background-color: #d83b01;
+  }
+  
+  .block:nth-child(10) {
+    background-color: #d83b01;
+  }
+  
+  .block:nth-child(11) {
+    background-color: #ea4300;
+  }
+  
+  .block:nth-child(12) {
+    background-color: #e45e04;
+  }
+  
+  .block:nth-child(13) {
+    background-color: #ff8c00;
+  }

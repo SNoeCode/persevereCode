@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SurveyFormCertification</title>
+  <link rel="stylesheet" href="SurveyFormCertification.css">
+  <script src="https://kit.fontawesome.com/0714cc97cd.js" crossorigin="anonymous"></script>
+  <meta Xa
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&family=Barlow+Semi+Condensed:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;1,9..40,300;1,9..40,500&family=Esteban&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Grape+Nuts&family=Noto+Serif+Grantha&family=Noto+Serif+Makasar&family=Noto+Serif+Toto&family=Nunito:ital,wght@0,400;0,500;1,400&family=Rozha+One&display=swap');
+</style>
+<body>
+  <header>
+    <h1 id="title"><i class="fab fa-free-code-camp"></i>freeCodeCamp Survey Form</h1><br>
+    <p id="description">This is a Survey for freeCodeCamp. Please take this survey and tell us what you think.</p><br>
+  </header>
+      <form action="" id="survey-form">
+        <h2><strong>Please Take Our Survey</strong></h2>
+          <fieldset class="label">
+            <label for="name-label" id="name">Full Name:</label>
+            <input type="text" id="name" required placeholder="Enter Name"/>
+
+            <label for="email-label" id="name">Email:</label>
+            <input type="email" id="name" required placeholder="Enter Email"/>
+
+            <label for="number-label" id="name">Age:</label>
+            <input type="number" id="name" min="10" max="100" required placeholder="Enter Number"/>
+          </fieldset>
+             <h3><strong>Please Select One</strong></h3>
+                  <div class="drop-down">
+                <button class="button" type="button">Gender</button>
+                <select class="option">
+>                    <option><a href="#">Male</a></option>
+                    <option><a href="#">Female</a></option>
+                    <option><a href="#">Other</a></option>
+                  </select>
+                </div>
+                  <br>
+                  <fieldset id="radio">
+                <legend class="legend">Education Level:</legend>
+                  <input type="radio" name="high-school" checked value="high-school" />
+                  <label for="high-school" checked>High School</label>
+                  <input type="radio" name="high-school" value="college" />
+                  <label for="college">College</label>
+                  <input type="radio" name="high-school" value="other" />
+                  <label for="other">Other</label>
+                </fieldset>
+                <br>
+                <fieldset id="social-media">
+                <legend class="legend">How did you hear about us</legend>
+                  <input type="radio" name="check-box" checked value="face-book"/>
+                  <label for="face-book">Facebook<i class="fab fa-facebook"></i></label>
+                  <input type="radio" name="check-box" value="twitter" />
+                  <label for="twitter">Twitter<i class="fab fa-twitter"></i></label>
+                  <input type="radio" name="check-box" value="instagram"/>
+                  <label for="instagram">Instagram<i class="fab fa-instagram-square"></i></label><br>
+                  </fieldset>
+                  <br>
+                  <fieldset id="rec">
+                <legend class="legend">Do you recommend us?</legend>      
+                  <input id="radio" type="radio" name="check" value="yes" checked/>
+                  <label for="yes">Yes</label>
+                  <input id="radio" type="radio" name="check" value="no"/>
+                  <label for="no">No</label>
+                  </fieldset>
+                  <br>  
+                  <fieldset class="area">
+                <legend class="legend">Suggestions&Comments:</legend><br>
+                  <textarea name="suggestions" class="suggestions" id="text" cols="28" rows="4">WRITE HERE!! Thanks!Bought to you by Shanna!
+                  </textarea>
+                </fieldset><br>
+                    <button type="submit">Submit</button>
+              </form>
+            </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SurveyFormCertification</title>
+  <link rel="stylesheet" href="SurveyFormCertification.css">
+  <script src="https://kit.fontawesome.com/0714cc97cd.js" crossorigin="anonymous"></script>
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@0;1&family=Barlow+Semi+Condensed:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;1,9..40,300;1,9..40,500&family=Esteban&family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Grape+Nuts&family=Noto+Serif+Grantha&family=Noto+Serif+Makasar&family=Noto+Serif+Toto&family=Nunito:ital,wght@0,400;0,500;1,400&family=Rozha+One&display=swap');
+</style>
+<body>
+  <h2><i class="fab fa-free-code-camp"></i>
+      freeCodeCamp Survey Form</h2>
+
+  <p id="description">This is a Survey for freeCodeCamp</p>
+
+  <form action="" id="survey-form">
+    <label for="name-label" id="name">Full Name:</label>
+    <input type="text" id="name" required placeholder="Enter Name" />
+
+    <label for="email-label" id="name">Email:</label>
+    <input type="email" id="name" required placeholder="Enter Email" />
+
+    <label for="number-label" id="name">Age:</label>
+    <input type="number" id="name" min="10" max="100" required placeholder="Enter Number"/>
+    <br>
+    <br>
+    <fieldset>
+      <legend><strong>Please Take Our Survey</strong></legend>
+     <h4>Please Select One</h4>
+      
+     <legend>Gender:</legend><select id="dropdown">
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other>/option>
+      </select>
+      <br>
+      <br>
+
+      <legend>
+        Education Level:
+      </legend>
+      
+      <input type="radio" name="high-school" checked value="high-school" />
+      <label for="high-school" checked>High School</label>
+
+      <input type="radio" name="high-school" value="college" />
+      <label for="college">College</label>
+
+      <input type="radio" name="high-school" value="other" />
+      <label for="other">Other</label>
+      <br>
+      <br>
+      <legend>How did you hear about us</legend>
+      <input type="radio" name="check-box" checked value="face-book" />
+      <label for="face-book">Facebook<i class="fab fa-facebook"></i></label>
+
+      <input type="radio" name="check-box" value="twitter" />
+      <label for="twitter">Twitter<i class="fab fa-twitter"></i></label>
+
+      <input type="radio" name="check-box" value="instagram"/>
+      <label for="instagram">Instagram<i class="fab fa-instagram-square"></i></label><br>
+      <br>
+      <legend>Do you recommend us?</legend>
+
+      <input id="radio" type="radio" name="check" value="yes" checked/>
+      <label for="yes">Yes</label>
+      <input id="radio" type="radio" name="check" value="no" />
+      <label for="no">No</label>
+      <br>
+      <br>
+      <legend>Suggestions&Comments:</legend>
+      <textarea name="suggestions" id="text" cols="20" rows="10"></textarea>
+      <br>
+      <br>
+      <button type="submit">Submit</button>
+    </fieldset>
+  </form>
+
+
+</body>
+
+</html>

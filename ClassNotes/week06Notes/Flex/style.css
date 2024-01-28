@@ -1,0 +1,48 @@
+* {
+box-sizing: border-box;
+margin: 0;    
+padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+/*flex-container {
+    height:400px; 
+    JUSTIFY CONTENT ALWAYS ON THE MAIN AXIS
+    display: flex;    background-color:lightgray;/*
+    Use justify content on the flex-container, NOT the  items and justify-content pertains to the man axis Flex row is the (horizonal axis)
+    justify-content: end;
+    aligning veritically is the cross axis if a row
+}*/ 
+/*column axis flex-direction is column*/
+.flex-container {
+    display: flex;
+    /*ALIGN_ITEMS IS ALWAYS ON THE CROSS AXIS*//*
+    justify-content: end;
+    align-items: start;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+
+}
+    /*align-itemsif want to use horizan align in colomn use align items start*/ 
+.item {
+    display: flex; 
+    color: #fff;
+    background: #254de4;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}/*
+.item:nth-of-type(1) {
+    align-self: start;
+    }
+.item:nth-of-type(2) {
+    align-self: center;    
+}
+.item:nth-of-type(3) {
+    align-items: end;
+    }
+*/
+
